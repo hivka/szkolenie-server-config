@@ -1,1 +1,1 @@
-spring.h2.console.enabled: truespring.datasource.url: jdbc:h2:mem:customersspring:  application:    name: Customers  jpa:    hibernate:      ddl-auto: noneeureka:  instance:    prefer-ip-address: trueserver:  port: 0
+spring.h2.console.enabled: truespring.datasource.url: jdbc:h2:mem:customersspring:  jpa:    hibernate:      ddl-auto: noneeureka:  instance:    prefer-ip-address: true
