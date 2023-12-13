@@ -1,1 +1,6 @@
-eureka:  instance:    prefer-ip-address: true
+eureka:
+  instance:
+    prefer-ip-address: true
+custom:
+  api:
+    version: 49
