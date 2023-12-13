@@ -3,4 +3,4 @@ eureka:
     prefer-ip-address: true
 custom:
   api:
-    version: 50
+    version: 52
