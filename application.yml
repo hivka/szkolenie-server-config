@@ -1,1 +1,9 @@
-server:  port: 0custom.property.value: 8
+management:
+  endpoints:
+    web:
+      exposure:
+        include: refresh
+server:
+  port: 0
+
+custom.property.value: 8
