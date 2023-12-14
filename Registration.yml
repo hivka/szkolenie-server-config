@@ -1,6 +1,9 @@
 eureka:
   instance:
     prefer-ip-address: true
+  clinet:
+    service-url:
+      defaultZone: http://eureka:8761/eureka
 custom:
   api:
     version: 52
